@@ -47,8 +47,6 @@ while game_on:
         ball.distance(l_paddle) < 50 and ball.xcor() < -340
     ):
         ball.rebounce()
-    # elif (ball.distance(r_paddle) > 50 and ball.xcor() > 340) or (ball.distance(l_paddle) > 50 and ball.xcor() < -340):
-    #     ball.reset()
 
     # detect when right paddle misses
     if ball.xcor() > 390:
